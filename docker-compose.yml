@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  cpp-dev:
+    build: .
+    container_name: competitive-programming
+    volumes:
+      - .:/workspace
+      - cpp-cache:/root/.cache
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+    environment:
+      - DISPLAY=${DISPLAY}
+    networks:
+      - cpp-network
+
+volumes:
+  cpp-cache:
+
+networks:
+  cpp-network:
+    driver: bridge

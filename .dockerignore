@@ -1,0 +1,34 @@
+# Exclude compiled files
+*.exe
+*.o
+*.out
+*.obj
+*.a
+*.so
+*.dll
+
+# Exclude build artifacts
+build/
+dist/
+target/
+
+# Exclude version control
+.git/
+.gitignore
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+
+# Exclude logs
+*.log
+
+# Exclude temporary files
+*.tmp
+*.temp
