@@ -8,6 +8,8 @@ A comprehensive collection of competitive programming solutions implemented in C
 CPP/
 ├── Greedy Algorithm/
 │   └── Stack-basedStringProcessing.cpp
+├── Linked List/
+│   └── RemoveDuplicatesFromSortedList.cpp
 ├── Number Theory/
 │   └── FlippingCoinsPerfectSquares.cpp
 └── string processing/
